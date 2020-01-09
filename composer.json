@@ -1,0 +1,28 @@
+{
+  "name": "andred23/phptips006",
+  "description": "Login Social via Facebook com Oauth 2 Client",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "André Dorneles",
+      "email": "andre@imperiosoft.com.br",
+      "role": "Developer",
+      "homepage": "https://imperiosoft.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-facebook": "2.0.*"
+  }
+}
